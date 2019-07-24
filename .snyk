@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - browser-sync > localtunnel > axios:
+        patched: '2019-05-08T07:58:17.895Z'
+  'npm:lodash:20180130':
+    - gulp-ng-html2js > lodash:
+        patched: '2019-05-08T07:58:17.895Z'
+    - gulp-replace-task > applause > lodash:
+        patched: '2019-05-08T07:58:17.895Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-05-08T07:58:17.895Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-05-08T07:58:17.895Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-05-08T07:58:17.895Z'
