@@ -20,7 +20,7 @@ Flask-RESTful==0.3.3
 Flask-Script==2.0.5
 Flask-SQLAlchemy==2.1
 future==0.15.2
-gunicorn==19.4.1
+gunicorn==23.0.0
 idna==2.1
 imagesize==0.7.1
 inflection==0.3.1
